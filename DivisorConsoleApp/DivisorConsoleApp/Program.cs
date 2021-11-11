@@ -46,8 +46,9 @@ namespace DivisorConsoleApp
                     rangeInfo = await JsonSerializer.DeserializeAsync<RangeInfo>(await streamTask);
                     break;
                 }
-                catch
+                catch(Exception ex)
                 {
+                    Console.WriteLine(ex);
                     if (--attempts == 0)
                         throw;
                     Thread.Sleep(1000);
@@ -70,8 +71,9 @@ namespace DivisorConsoleApp
                     divisorInfo = await JsonSerializer.DeserializeAsync<DivisorInfo>(await streamTask);
                     break;
                 }
-                catch
+                catch(Exception ex)
                 {
+                    Console.WriteLine(ex);
                     if (--attempts == 0)
                         throw;
                     Thread.Sleep(1000);
