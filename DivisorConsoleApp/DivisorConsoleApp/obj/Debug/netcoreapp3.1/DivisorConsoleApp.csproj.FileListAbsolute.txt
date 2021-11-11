@@ -1,0 +1,13 @@
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.exe
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.deps.json
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.runtimeconfig.json
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.runtimeconfig.dev.json
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.dll
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\bin\Debug\netcoreapp3.1\DivisorConsoleApp.pdb
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.csproj.AssemblyReference.cache
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.AssemblyInfoInputs.cache
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.AssemblyInfo.cs
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.dll
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.pdb
+C:\Users\mtinwala\source\repos\reckon-test\DivisorConsoleApp\DivisorConsoleApp\obj\Debug\netcoreapp3.1\DivisorConsoleApp.genruntimeconfig.cache
