@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
@@ -63,7 +64,9 @@ namespace TextSearchApi.Controllers
                 response.results = searchResults.ToArray();
             }
 
-            return response;
+            await SubmitResults(response);
+
+            return response;//also return as part of this GET api
         }
 
         private static async Task<ContentToSearch> GetTextInfo()
@@ -114,6 +117,15 @@ namespace TextSearchApi.Controllers
             }
 
             return subtextInfo;
+        }
+
+        private static async Task<HttpResponseMessage> SubmitResults(TextSearchResponse response) 
+        {
+            string payload = JsonSerializer.Serialize(response);
+            HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
+            var streamTask = await client.PostAsync("https://join.reckon.com/test2/submitResults", content);
+
+            return streamTask;
         }
 
     }
