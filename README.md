@@ -14,13 +14,14 @@ This repo contains two solutions for Reckon test
 *	Convert to a layered application and separate core logic into a library.
 *	Add unit tests to verify boundary conditions and core logic.
 *	Use dependency injection to inject replaceable strategy for generting output.
-*	There are some basic input validatins - add more.
+*	There are some basic input validations - add more.
 *	Use generics to abstract different API calls.
 *	Better injection and clean-up of HttpClient.
+*	Better configuration for retry attempt.
 
 **TextSearchApi.sln**
 
-*	This is a .net core consle app that resolves first problem of divisor 
+*	This is a .net core consle app that resolves the second test which requires to write REST api for text search.
 *	Can be opened in Visual Studio and be executed using F5 or Debug menu.  It will be opened in default browser using IIS express.
 *	The api GET /api/textsearch contains the results desired. It also posts to given endpoint.
 *	Solution is single layered only and demonstrates the logic used to search subtext in given string without using any C# string functions.
@@ -32,6 +33,7 @@ This repo contains two solutions for Reckon test
 *	Convert to a layered application and separate core logic into a library.
 *	Add unit tests to verify boundary conditions and core logic.
 *	Use dependency injection to inject replaceable strategy for search logic.
-*	There are some basic input validatins - add more.
+*	There are some basic input validations - add more.
 *	Use generics to abstract different API calls.
 *	Better injection and clean-up of HttpClient.
+*	Better configuration for retry attempt.
