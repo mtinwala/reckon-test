@@ -21,7 +21,7 @@ This repo contains two solutions for Reckon test
 
 **TextSearchApi.sln**
 
-*	This is a .net core consle app that resolves the second test which requires to write REST api for text search.
+*	This is a ASP.net Web API app that resolves the second test which requires to write REST api for text search.
 *	Can be opened in Visual Studio and be executed using F5 or Debug menu.  It will be opened in default browser using IIS express.
 *	The api GET /api/textsearch contains the results desired. It also posts to given endpoint.
 *	Solution is single layered only and demonstrates the logic used to search subtext in given string without using any C# string functions.
